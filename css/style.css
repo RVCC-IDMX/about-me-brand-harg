@@ -1,0 +1,56 @@
+body {
+    font-family:poppins, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    background-color: #645070;
+    color: #d4f048;
+
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:oswald, 'Times New Roman', Times, serif;
+    font-size: 45pt;
+
+}
+header {
+    text-align: center;
+
+}
+#avatar {
+    text-align: center;
+    background-color: #43453d;
+    padding: 10px;
+    border: 4px solid #d4f048;
+    border-radius: 10px;
+
+
+}
+#avatar img {
+    width: 350px;
+
+}
+#bio {
+    text-align: center;
+    
+}
+#logo img {
+    background-color: #43453d;
+    border: 4px solid #d4f048;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#logo h1 {
+    background-color: #43453d;
+    border: 4px solid #d4f048;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+footer {
+font-style: italic;
+text-align: center;
+background-color: #43453d;
+padding: 10px;
+border: 4px solid #d4f048;
+border-radius: 10px;
+}
