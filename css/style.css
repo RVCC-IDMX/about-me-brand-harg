@@ -96,7 +96,7 @@ border-radius: 10px;
 }
 #lit p:nth-child(1n+1):first-letter,
 #lit p:nth-child(9):first-letter {
-    color:#db4d4d ;
+    color:#db4d4d;
     font-weight: bold;
     font-size: 28pt;
     float: left;
