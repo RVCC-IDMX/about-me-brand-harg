@@ -94,17 +94,20 @@ border-radius: 10px;
 #lit p {
     clear:both;
 }
-#lit p:nth-child(10):first-letter,
+#lit p:nth-child(1n+1):first-letter,
 #lit p:nth-child(9):first-letter {
-    color:#db4d4d;
+    color:#db4d4d ;
+    font-style: italic;
+    font-weight: bold;
     font-size: 28pt;
     float: left;
-    padding: 10px;
+    padding: 5px;
     border: 4px double #db9e4d;
-    margin-right: 10px;
+    margin-right: 5px;
     text-shadow: 1px 1px 1px rgb(219, 158, 77,.5);
-    box-shadow: 1px 1px 1px rgb(219, 158, 77,.5);
+    box-shadow: .5px .5px .5px rgb(219, 158, 77,.5);
     background-image: radial-gradient(#5c7786,#282f33);
+    margin-bottom: 8px;
     
     
 }
