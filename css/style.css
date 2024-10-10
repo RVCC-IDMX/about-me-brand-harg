@@ -149,7 +149,8 @@ article {
     clear: both;
 }
 
-#lit p:first-child:first-letter{
+#lit p:first-child:first-letter,
+#lit p:nth-child(10n):first-letter{
     color: #1d97db;
     font-weight: bold;
     font-size: 28pt;
