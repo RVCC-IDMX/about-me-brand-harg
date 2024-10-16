@@ -32,8 +32,9 @@ header {
     text-align: center;
     background-color: #282f33;
     padding: 10px;
-    border: 2px solid #db9e4d;
+    border: 4px solid #db9e4d;
     border-radius: 50px;
+    box-shadow: 5px -5px 5px rgb(219, 158, 77, .5);
 
 }
 
@@ -43,7 +44,7 @@ header {
 
 }
 
-#bio {
+#avatar #bio {
     text-align: center;
     border: 2px solid #db9e4d;
     border-radius: 50px;
@@ -55,6 +56,16 @@ header {
     flex-wrap: wrap;
 }
 
+#insta{
+    width: 150px !important;
+    margin-bottom: 6.6px;
+}
+
+#twitter{
+    width: 130px !important;
+    margin-bottom: 6.6px;
+    margin-left: -50px;
+}
 #bio p {
     margin: 1em;
 }
@@ -63,8 +74,8 @@ header {
     width: 80px;
     max-width: 100%;
     background-color: #282f33;
-    border: 2px solid #db9e4d;
-    padding: 1px;
+    border: 4px solid #db9e4d;
+    padding: 10px;
     border-radius: 50px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -73,10 +84,9 @@ header {
 
 #logo h1 {
     background-color: #282f33;
-    border: 2px solid #db9e4d;
+    border: 4px solid #db9e4d;
     padding: 5px;
     border-radius: 50px;
-    box-shadow: 5px 5px 5px rgb(219, 158, 77, .5);
 
 }
 
@@ -86,14 +96,14 @@ footer {
     text-align: center;
     background-color: #282f33;
     padding: 10px;
-    border: 2px solid #db9e4d;
+    border: 4px solid #db9e4d;
     border-radius: 50px;
 }
 
 /*hobbies*/
 
-#hobbies ul li:nth-child(odd) {
-    color: #db9e4d;
+#hobbies ul li:nth-child(odd) { 
+    color: #1d97db;
 
 }
 
@@ -106,7 +116,7 @@ footer {
 }
 
 #hobbies {
-    border: 2px solid #db9e4d;
+    border: 4px solid #db9e4d;
     border-radius: 50px;
     background-color: #282f33;
     margin-bottom: 2em;
@@ -116,7 +126,7 @@ footer {
 
 #gallery,
 article {
-    border: 2px solid #db9e4d;
+    border: 4px solid #db9e4d;
     border-radius: 50px;
     background-color: #282f33;
     margin-bottom: 2em;
@@ -129,11 +139,15 @@ article {
 
 #gallery figure {
     text-align: center;
+    font-family: 'Carter One','Times New Roman', Times, serif;
 }
 
-#gallery {}
+#gallery h2 {
+    font-family: 'Carter One','Times New Roman', Times, serif;
+}
 
 /*Article*/
+
 
 #lit div {
     padding: 10px;
@@ -150,7 +164,7 @@ article {
 }
 
 #lit p:first-child:first-letter,
-#lit p:nth-child(10n):first-letter{
+#lit p:nth-child(10n):first-letter {
     color: #1d97db;
     font-weight: bold;
     font-size: 28pt;
@@ -168,7 +182,7 @@ article {
     margin-bottom: 8px;
     margin-top: 8px;
 
-} 
+}
 
 /*tablet size*/
 @media screen and (min-width: 60em) {
