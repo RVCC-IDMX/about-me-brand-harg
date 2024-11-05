@@ -279,3 +279,9 @@ article {
     font-size: 25px;
     text-align: center;
 }
+
+/* Contact Form */
+
+#formElements {
+    display: grid;
+}
