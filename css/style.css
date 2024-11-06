@@ -337,9 +337,14 @@ legend{
 
 }
 
+button{
+        all: unset;
+        
+}
+
   button img {
     width: 100px;
     max-width: 40%;
-    justify-self: center;
     margin-bottom: -20px;
+    margin-top: -20px; 
   }
