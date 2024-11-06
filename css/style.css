@@ -304,6 +304,7 @@ fieldset {
     border: 2px solid #db9e4d;
     margin-top: 16px;
     margin-bottom: 16px;
+    border-radius: 50px;
 }
 
 legend{
