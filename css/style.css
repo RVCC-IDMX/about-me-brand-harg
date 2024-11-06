@@ -315,7 +315,7 @@ legend{
 }
 
 
-#contact input, #contact textarea, #contract select, #contact button {
+#contact input, #contact textarea, #contract select, #contact button, #phonetype {
     padding: 8px;
     font-size: 12pt;
 }
@@ -331,7 +331,7 @@ legend{
 }
 
 #contact button {;
-    border: 1px solid #282f33 ;
+    border: 1px solid #282f33;
     max-width: 400px;
     width: 50%;
     justify-self: center;
