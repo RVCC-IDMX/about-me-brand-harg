@@ -45,6 +45,7 @@ main {
 .logo img {
     height: 6vw;
     width: 6vw;
+    
 }
 
 .logo h1 {
@@ -56,7 +57,7 @@ main {
 .navbar-links li {
     list-style: none;
     display: block;
-    padding: 8px 0;
+    padding:  0.5em 0;
 }
 
 /*  
