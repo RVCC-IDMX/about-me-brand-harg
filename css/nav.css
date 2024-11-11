@@ -23,7 +23,14 @@ main, header {
 
 /* navbar */
 
-
+.navbar {
+    background-color: #282f33 ;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 20pt;
+    margin-bottom: 16px;
+}
 
 /* logo */
 
