@@ -79,7 +79,6 @@ header {
     width: 80px;
     max-width: 100%;
     background-color: #282f33;
-    border: 4px solid #db9e4d;
     padding: 10px;
     border-radius: 50px;
     border-bottom-right-radius: 0px;
@@ -89,7 +88,6 @@ header {
 
 #logo h1 {
     background-color: #282f33;
-    border: 4px solid #db9e4d;
     padding: 5px;
     border-radius: 50px;
 
