@@ -66,12 +66,17 @@ main {
 
 .navbar-links a {
     color: #db9e4d;
-    background-attachment: #333;
+    background-color: #282f33;
     font-size: 20pt;
     padding: 16px 20px;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+.navbar-links a:hover, .navbar-links a:focus {
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none;
 }
 
 
