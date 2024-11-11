@@ -29,8 +29,9 @@ main {
     color: #db9e4d;
     display: flex;
     flex-direction: column;
-    font-size: 20pt;
-    margin-bottom: 16px;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    padding: 16px;
 }
 
 /* logo */
@@ -42,12 +43,12 @@ main {
 }
 
 .logo img {
-    height: 7vw;
-    width: 7vw;
+    height: 6vw;
+    width: 6vw;
 }
 
 .logo h1 {
-    font-size: 30pt;
+    font-size: 1.2em;
 }
 
 /* navigation list */
@@ -67,8 +68,8 @@ main {
 .navbar-links a {
     color: #db9e4d;
     background-color: #282f33;
-    font-size: 20pt;
-    padding: 16px 20px;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
@@ -85,3 +86,16 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
