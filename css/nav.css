@@ -17,16 +17,15 @@ body {
 
 /* add some padding back to rest of page */
 
-main, header {
+main {
     padding: 2vw;
 }
 
 /* navbar */
 
 .navbar {
-    border: 4px solid #db9e4d;
+
     background-color: #282f33;
-    border-radius: 50px;
     color: #db9e4d;
     display: flex;
     flex-direction: column;
@@ -53,6 +52,11 @@ main, header {
 
 /* navigation list */
 
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 8px 0;
+}
 
 /*  
  style all a tags in header 
@@ -60,7 +64,15 @@ main, header {
 */
 
 
-
+.navbar-links a {
+    color: #db9e4d;
+    background-attachment: #333;
+    font-size: 20pt;
+    padding: 16px 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 
 /* 
