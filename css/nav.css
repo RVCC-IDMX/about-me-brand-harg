@@ -43,9 +43,9 @@ main {
 }
 
 .logo img {
-    height: 6vw;
+    height: auto;
     width: 6vw;
-    
+
 }
 
 .logo h1 {
@@ -57,7 +57,12 @@ main {
 .navbar-links li {
     list-style: none;
     display: block;
-    padding:  0.5em 0;
+    padding: 0.5em 0;
+}
+
+.ham {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /*  
@@ -75,10 +80,32 @@ main {
     text-decoration: none;
     display: inline-block;
 }
-.navbar-links a:hover, .navbar-links a:focus {
+
+.navbar-links a:hover,
+.navbar-links a:focus {
     filter: invert(1);
     border-radius: 10px;
     outline: none;
+}
+
+#ham {
+    padding: 1000px;
+}
+
+/*
+#ham:checked ~ #chk {
+    display: none;
+}*/
+
+.navbar-links > ul {
+    display: none;
+    padding:0px;
+}
+#ham:checked ~ .navbar-links > ul {
+    display: block;
+}
+#ham {
+    display:none;
 }
 
 
@@ -94,9 +121,25 @@ such that no text wraps
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .navbar ul {
         display: flex;
         justify-content: space-between;
     }
+
+
+    #ham:checked~#chk {
+        filter: invert(1);
+
+    }
+
+    .navbar-links > ul {
+        display: flex !important;
+    }
+
+    #chk {
+        display:none;
+    }
+
 }
+
