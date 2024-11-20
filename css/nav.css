@@ -29,9 +29,9 @@ main {
     color: #db9e4d;
     display: flex;
     flex-direction: column;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 1rem;
-    padding: 16px;
+    padding: 8px;
     border-bottom: 4px solid #db9e4d;
 }
 
@@ -52,6 +52,8 @@ main {
 .logo h1 {
     font-size: 1.2em;
     margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 /* navigation list */
@@ -59,7 +61,6 @@ main {
 .navbar-links li {
     list-style: none;
     display: block;
-    padding: 0.5em 0;
 }
 
 .ham {
@@ -76,8 +77,8 @@ main {
 .navbar-links a {
     color: #db9e4d;
     background-color: #282f33;
-    font-size: 1.5rem;
-    padding: 1rem 1.25rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;

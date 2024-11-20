@@ -46,7 +46,13 @@ header {
     display: block;
     margin-left: auto ;
     margin-right: auto;
+    transition: 1s ease;
 
+}
+
+#selfie:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
 }
 
 #bio {
@@ -63,6 +69,8 @@ header {
 
 #bio ul li:nth-child(odd) { 
     color: #1d97db;
+    font-weight: bold;
+
 
 }
 
@@ -100,6 +108,7 @@ header {
 
 /*footer*/
 footer {
+    display: grid;
     font-style: italic;
     text-align: center;
     background-color: #282f33;
@@ -107,15 +116,14 @@ footer {
     border-top: solid #db9e4d;
 }
 
-footer img{
-    width: 90px !important;
-    margin-bottom: -10px;
+#github1 {
+    max-width: 100%;
+    fill: #db9e4d;
 }
-
-/*hobbies*/
 
 #hobbies ul li:nth-child(odd) { 
     color: #1d97db;
+    font-weight: bold;
 
 }
 
@@ -151,10 +159,9 @@ article {
 }
 
 #gallery img:hover{
--webkit-transform: scale(1.1);
--ms-transform: scale(1.1);
 transform: scale(1.1);
 transition: 1s ease;
+
 }
 
 #gallery figure {
@@ -323,8 +330,9 @@ fieldset {
 
 legend{
     background-color: #db9e4d ;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 8px;
+    font-weight: bold;
     
 }
 
@@ -332,6 +340,7 @@ legend{
 #contact input, #contact textarea, #contract select, #contact button, #phonetype {
     padding: 8px;
     font-size: 12pt;
+    font-weight: bold;
 }
 
 #contact ul {
