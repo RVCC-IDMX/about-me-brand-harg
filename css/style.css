@@ -40,7 +40,7 @@ header {
 
 #selfie {
     width: 350px;
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 100px;
     border: 2px solid #db9e4d;
     display: block;
