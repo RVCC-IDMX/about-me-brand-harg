@@ -84,7 +84,7 @@ header {
 
 #logo h1 {
     background-color: #282f33;
-    font-family: 'carter-one', 'Times New Roman', Times, serif;
+    font-family: oswald, 'Times New Roman', Times, serif;
 
 }
 
@@ -333,6 +333,8 @@ legend{
 
 button {
         all: unset;
+        text-align: center;
+        padding: 0px;
         
 }
 
