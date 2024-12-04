@@ -16,3 +16,4 @@ Background Color for sections ![282F33](https://placehold.co/15x15/282F33/282F33
 
 # Citations
 Logo was created on https://www.figma.com/.
+Blog Post Sources https://thebrandsmen.com/css-image-hover-effects/ https://unsplash.com/photos/person-holding-pink-and-white-balloon-pJ_DCj9KswI https://codepen.io/kw7oe/pen/mPeepv
